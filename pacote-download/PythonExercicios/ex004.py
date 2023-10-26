@@ -1,0 +1,7 @@
+a = input('Digite algo: ')
+print(type (a))
+print('É numérico?', a.isnumeric())
+print('É alfa numérico?', a.isalnum())
+print('É alfabetico?', a.isalpha())
+print('É tudo minúsculo?', a.islower())
+print('É tudo maiúsculo?', a.isupper())
